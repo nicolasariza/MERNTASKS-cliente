@@ -8,40 +8,60 @@ const Tarea = ({ tarea }) => {
 
   // Obtener la funcion de context de tarea
   const tareasContext = useContext(tareaContext);
-  const { eliminarTarea, obtenerTareas, cambiarEstadoTarea, guardarTareaActual } = tareasContext;
+  const {
+    eliminarTarea,
+    obtenerTareas,
+    actualizarTarea,
+    guardarTareaActual,
+  } = tareasContext;
 
-  const handleClick = id => {
-    eliminarTarea(tarea.id);
-    obtenerTareas(proyecto[0].id);
-  }
+  const [proyectoActual] = proyecto;
+  const tareaEliminar = id => {
+    eliminarTarea(id, proyectoActual._id);
+    obtenerTareas(proyectoActual.id);
+  };
 
   // funcion que modifica el estado de las tareas
-  const cambiarEstado = tarea => {
+  const cambiarEstado = (tarea) => {
     tarea.estado = !tarea.estado;
-    cambiarEstadoTarea(tarea);
-  }
-  
+    actualizarTarea(tarea);
+  };
+
   return (
     <li className="tarea sombre">
       <p>{tarea.nombre}</p>
       <div className="estado">
         {tarea.estado ? (
-          <button type="button" className="completo" onClick={()=>cambiarEstado(tarea)}>
+          <button
+            type="button"
+            className="completo"
+            onClick={() => cambiarEstado(tarea)}
+          >
             Completo
           </button>
         ) : (
-          <button type="button" className="incompleto" onClick={()=>cambiarEstado(tarea)}>
+          <button
+            type="button"
+            className="incompleto"
+            onClick={() => cambiarEstado(tarea)}
+          >
             Incompleto
           </button>
         )}
       </div>
       <div className="acciones">
-        <button type="button" className="btn btn-primario" onClick={()=>guardarTareaActual(tarea)}>
+        <button
+          type="button"
+          className="btn btn-primario"
+          onClick={() => guardarTareaActual(tarea)}
+        >
           Editar
         </button>
-        <button type="button" className="btn btn-secundario" onClick={
-         handleClick
-        }>
+        <button
+          type="button"
+          className="btn btn-secundario"
+          onClick={()=>tareaEliminar(tarea._id)}
+        >
           Eliminar
         </button>
       </div>

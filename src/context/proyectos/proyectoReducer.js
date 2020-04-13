@@ -5,6 +5,7 @@ import {
   VALIDAR_FORMULARIO,
   PROYECTO_ACTUAL,
   ELIMINAR_PROYECTO,
+  PROYECTO_ERROR,
 } from "../../types";
 
 // Su funcion: cambiar el state
@@ -23,7 +24,7 @@ export default (state, action) => {
     case AGREGAR_PROYECTO:
       return {
         ...state,
-        proyectos: [action.payload, ...state.proyectos],
+        proyectos: [...state.proyectos, action.payload],
         formulario: false,
         errorformulario: false,
       };
@@ -36,15 +37,20 @@ export default (state, action) => {
       return {
         ...state,
         proyecto: state.proyectos.filter(
-          (proyecto) => proyecto.id === action.payload
+          (proyecto) => proyecto._id === action.payload
         ),
       };
     case ELIMINAR_PROYECTO:
       return {
         ...state,
         proyectos: state.proyectos.filter(
-          (proyecto) => proyecto.id !== action.payload
+          (proyecto) => proyecto._id !== action.payload
         ), proyecto : null
+      }
+    case PROYECTO_ERROR:
+      return {
+        ...state,
+        mensaje: action.payload
       }
     default:
       return state;
