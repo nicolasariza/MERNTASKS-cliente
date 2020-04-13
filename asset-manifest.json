@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://nicolasariza.github.io/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css",
-    "main.js": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/main.704faf2e.chunk.js",
-    "main.js.map": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/main.704faf2e.chunk.js.map",
-    "runtime-main.js": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/runtime-main.27334642.js",
-    "runtime-main.js.map": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/runtime-main.27334642.js.map",
-    "static/js/2.4a32e8c2.chunk.js": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js",
-    "static/js/2.4a32e8c2.chunk.js.map": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js.map",
-    "index.html": "https://nicolasariza.github.io/MERNTASKS-cliente/index.html",
-    "precache-manifest.ffa82b7ef0442b1a97874bf4dd2cef19.js": "https://nicolasariza.github.io/MERNTASKS-cliente/precache-manifest.ffa82b7ef0442b1a97874bf4dd2cef19.js",
-    "service-worker.js": "https://nicolasariza.github.io/MERNTASKS-cliente/service-worker.js",
-    "static/css/main.733a94b3.chunk.css.map": "https://nicolasariza.github.io/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css.map",
-    "static/js/2.4a32e8c2.chunk.js.LICENSE.txt": "https://nicolasariza.github.io/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js.LICENSE.txt"
+    "main.css": "/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css",
+    "main.js": "/MERNTASKS-cliente/static/js/main.06139228.chunk.js",
+    "main.js.map": "/MERNTASKS-cliente/static/js/main.06139228.chunk.js.map",
+    "runtime-main.js": "/MERNTASKS-cliente/static/js/runtime-main.7ac214a1.js",
+    "runtime-main.js.map": "/MERNTASKS-cliente/static/js/runtime-main.7ac214a1.js.map",
+    "static/js/2.4a32e8c2.chunk.js": "/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js",
+    "static/js/2.4a32e8c2.chunk.js.map": "/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js.map",
+    "index.html": "/MERNTASKS-cliente/index.html",
+    "precache-manifest.b7059169334595b2e5b09e22e7bf96f3.js": "/MERNTASKS-cliente/precache-manifest.b7059169334595b2e5b09e22e7bf96f3.js",
+    "service-worker.js": "/MERNTASKS-cliente/service-worker.js",
+    "static/css/main.733a94b3.chunk.css.map": "/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css.map",
+    "static/js/2.4a32e8c2.chunk.js.LICENSE.txt": "/MERNTASKS-cliente/static/js/2.4a32e8c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.27334642.js",
+    "static/js/runtime-main.7ac214a1.js",
     "static/js/2.4a32e8c2.chunk.js",
     "static/css/main.733a94b3.chunk.css",
-    "static/js/main.704faf2e.chunk.js"
+    "static/js/main.06139228.chunk.js"
   ]
 }
