@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css",
-    "main.js": "/MERNTASKS-cliente/static/js/main.fe6aa9b0.chunk.js",
-    "main.js.map": "/MERNTASKS-cliente/static/js/main.fe6aa9b0.chunk.js.map",
+    "main.js": "/MERNTASKS-cliente/static/js/main.51043242.chunk.js",
+    "main.js.map": "/MERNTASKS-cliente/static/js/main.51043242.chunk.js.map",
     "runtime-main.js": "/MERNTASKS-cliente/static/js/runtime-main.7ac214a1.js",
     "runtime-main.js.map": "/MERNTASKS-cliente/static/js/runtime-main.7ac214a1.js.map",
     "static/js/2.d3657c68.chunk.js": "/MERNTASKS-cliente/static/js/2.d3657c68.chunk.js",
     "static/js/2.d3657c68.chunk.js.map": "/MERNTASKS-cliente/static/js/2.d3657c68.chunk.js.map",
     "index.html": "/MERNTASKS-cliente/index.html",
-    "precache-manifest.8f7669edbc26b8cf6b4843c4949baa5d.js": "/MERNTASKS-cliente/precache-manifest.8f7669edbc26b8cf6b4843c4949baa5d.js",
+    "precache-manifest.99d4237bfef2984918e1cdf58f789076.js": "/MERNTASKS-cliente/precache-manifest.99d4237bfef2984918e1cdf58f789076.js",
     "service-worker.js": "/MERNTASKS-cliente/service-worker.js",
     "static/css/main.733a94b3.chunk.css.map": "/MERNTASKS-cliente/static/css/main.733a94b3.chunk.css.map",
     "static/js/2.d3657c68.chunk.js.LICENSE.txt": "/MERNTASKS-cliente/static/js/2.d3657c68.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7ac214a1.js",
     "static/js/2.d3657c68.chunk.js",
     "static/css/main.733a94b3.chunk.css",
-    "static/js/main.fe6aa9b0.chunk.js"
+    "static/js/main.51043242.chunk.js"
   ]
 }
