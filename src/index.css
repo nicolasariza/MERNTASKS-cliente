@@ -136,6 +136,14 @@ aside  {
   line-height: 1.5;
   font-weight: 300;
 }
+.footer-sidebar {
+  position: absolute;
+  bottom: 0;
+}
+.list-sidebar {
+  height: 365px;
+  overflow: auto;
+}
 .app-header {
   display: flex;
   justify-content: space-between;
