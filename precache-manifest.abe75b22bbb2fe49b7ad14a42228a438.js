@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e429ec2add9ec0d91fd56b2a77de707a",
+    "revision": "b31b018a628ddb4421636f8815451588",
     "url": "/MERNTASKS-cliente/index.html"
   },
   {
-    "revision": "a437619432baf5ccfd77",
+    "revision": "1dc44b8ff63e39d3a163",
     "url": "/MERNTASKS-cliente/static/css/main.e200805c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MERNTASKS-cliente/static/js/2.d1a1dad0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a437619432baf5ccfd77",
-    "url": "/MERNTASKS-cliente/static/js/main.0fc76ff7.chunk.js"
+    "revision": "1dc44b8ff63e39d3a163",
+    "url": "/MERNTASKS-cliente/static/js/main.80750a9b.chunk.js"
   },
   {
     "revision": "9c7f99cdde335fda871b",
